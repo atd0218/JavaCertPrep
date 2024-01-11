@@ -64,12 +64,7 @@ public class Operators {
 
     public static boolean modulus(int x, int y) {
 
-        if (x % y == 0) {
-            return true;
-        }
-        else {
-            return false;
-        }
+        return (x % y == 0) ? true : false;
 
     }
 
