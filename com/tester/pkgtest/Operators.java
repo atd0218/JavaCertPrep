@@ -1,3 +1,5 @@
+package com.tester.pkgtest;
+
 import java.util.Scanner;
 
 public class Operators {
@@ -12,8 +14,6 @@ public class Operators {
 
         System.out.println("Enter the second number: ");
         int y = sc.nextInt();
-
-        System.out.println("Need to add more to try commit");
 
         logicalOps(x, y);
         simpleMaths(x,y);
